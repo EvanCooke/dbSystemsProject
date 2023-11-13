@@ -30,7 +30,7 @@ def generate_phone():
     return str(area) + str(prefix) + str(suffix)
 
 roleList = ['Manager', 'Sales Agent', 'Customer Service', 'Accountant', 'Security', 'Janitor']
-currentCarsRented = ['none']
+currentCarsRented = ['none', 'none', 'none', 'none', 'none']
 customerEmails = []
 employeeIDList = []
 carVINs = []
